@@ -6,4 +6,4 @@ class SimpleRemoteControl(object):
         self.slot = command
 
     def buttonWasPressed(self):
-        self.slot.excute()
+        self.slot.execute()

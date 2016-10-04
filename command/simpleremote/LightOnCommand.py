@@ -6,5 +6,5 @@ class LightOnCommand(Command):
     def __init__(self,light):
         self.light = light
 
-    def excute(self):
+    def execute(self):
         self.light.on()

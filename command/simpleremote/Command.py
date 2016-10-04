@@ -3,5 +3,5 @@
 
 class Command(object):
 
-    def excute(self):
+    def execute(self):
         pass
