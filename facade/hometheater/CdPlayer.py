@@ -18,11 +18,9 @@ class CdPlayer(object):
 
     def play(self, title):
         self.title = title
-        self.currentTrack = 0
         print(self.description + " playing '" + self.title + "'")
 
     def stop(self):
-        self.currentTrack = 0
         print(self.description + ' stopped')
 
     def pause(self):

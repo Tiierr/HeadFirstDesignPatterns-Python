@@ -18,11 +18,9 @@ class DvdPlayer(object):
 
     def play(self, movie):
         self.movie = movie
-        self.currentTrack = 0
         print(self.description + " playing '" + self.movie + "'")
 
     def stop(self):
-        self.currentTrack = 0
         print(self.description + " stopped '" + self.movie + "'")
 
     def pause(self):
